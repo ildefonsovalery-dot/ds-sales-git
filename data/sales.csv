@@ -1,0 +1,9 @@
+order_id,product,category,units,unit_price
+101,Notebook,Stationery,3,6.50
+102,Pen,Stationery,10,1.75
+103,Backpack,Bags,2,39.99
+104,Marker,Stationery,5,2.50
+105,Notebook,Stationery,4,6.50
+106,Water Bottle,Accessories,3,14.00
+107,Backpack,Bags,1,39.99
+108,Pen,Stationery,8,1.75
