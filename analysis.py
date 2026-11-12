@@ -24,10 +24,14 @@ def total_units(rows):
 
     return total
 
-
 def revenue_for_category(rows, category):
-    # Day 14: exact, case-sensitive category matching.
-    raise NotImplementedError("Complete the category-revenue task")
+    total = 0.0                            # Empezamos con ingresos de cero
 
+    for row in rows:                       # Recorremos cada venta
+        if row["category"] == category:     # Comprobamos si coincide la categoría
+            units = int(row["units"])       # Convertimos las unidades a número
+            price = float(row["unit_price"]) # Convertimos el precio a número
+            total += units * price          # Sumamos los ingresos de esa venta
 
+    return total                           # Devolvemos los ingresos de la categoría
 
