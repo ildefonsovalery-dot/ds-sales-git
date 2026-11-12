@@ -54,3 +54,6 @@ The dataset contains eight synthetic order lines.
 Each row represents one order line.
 All commands are executed using Python 3.
 
+Run all commands from the project root.
+
+The feature checks are completed on Day 14.
