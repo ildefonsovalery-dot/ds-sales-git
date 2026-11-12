@@ -47,3 +47,10 @@ Floating-point arithmetic is used for teaching; display money to two decimals.
 
 Use a feature branch, inspect the diff, test, commit, push, open a pull request,
 and have a classmate review before merging. Keep generated output in output/.
+
+## Reproducibility notes
+
+The dataset contains eight synthetic order lines.
+Each row represents one order line.
+All commands are executed using Python 3.
+
