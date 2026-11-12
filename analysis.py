@@ -16,10 +16,18 @@ def total_revenue(rows):
 
 
 def total_units(rows):
-    # Day 14: implement without changing the input rows.
-    raise NotImplementedError("Complete the total-units task")
+    total = 0
+
+    for row in rows:
+        units = int(row["units"])
+        total += units
+
+    return total
 
 
 def revenue_for_category(rows, category):
     # Day 14: exact, case-sensitive category matching.
     raise NotImplementedError("Complete the category-revenue task")
+
+
+
