@@ -1,4 +1,4 @@
-# Sales Git Practice
+# Sales Data Collaboration
 
 A beginner Git and GitHub project using eight synthetic sales order lines.
 
